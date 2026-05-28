@@ -1,31 +1,30 @@
-import AnimatedElement from './AnimatedElement'
+import React from 'react';
 
 export default function AboutSection() {
   return (
-    <section className="py-24 px-6 bg-black relative">
-
-      <div className="absolute inset-0 bg-gradient-to-b from-black via-cyan-500/5 to-black" />
-
-      <div className="relative z-10 max-w-4xl mx-auto text-center">
-
-        <AnimatedElement>
-          <h2 className="text-4xl font-bold text-white mb-8">
-            Sobre a <span className="text-cyan-400">Base Tech</span>
-          </h2>
-        </AnimatedElement>
-
-        <AnimatedElement delay={200}>
-          <div className="bg-white/5 border border-cyan-400/20 rounded-xl p-8">
-            <p className="text-white/80 text-lg">
-              Simplificamos seu início na TI e criamos um caminho estratégico
-              para quem busca resultados reais.
-            </p>
-          </div>
-        </AnimatedElement>
-
+    <section className="w-full py-20 px-4 bg-black relative flex flex-col items-center text-center">
+      <div className="flex items-center gap-2 mb-4 text-base md:text-lg font-bold text-white">
+        <span className="text-[#00BFFF]">&lt;/&gt;</span> Sobre a <span className="text-[#00BFFF]">Base Tech</span>
       </div>
-
+      
+      <div className="bg-[#050b14] border border-gray-900 rounded-2xl p-8 max-w-3xl w-full">
+        <p className="text-gray-300 text-base md:text-lg leading-relaxed">
+          Simplificamos o seu início na TI. Transformamos a sobrecarga de informação em um <span className="text-[#00BFFF] font-semibold">caminho estratégico de carreira</span> para quem busca resultados reais.
+        </p>
+        
+        {/* Checkmarks de Benefícios */}
+        <div className="flex flex-wrap justify-center gap-6 mt-6 text-xs text-gray-400 font-medium">
+          <span className="flex items-center gap-1.5">
+            <span className="text-[#00BFFF]">✓✓</span> Conteúdo prático
+          </span>
+          <span className="flex items-center gap-1.5">
+            <span className="text-[#00BFFF]">✓✓</span> Sem enrolação
+          </span>
+          <span className="flex items-center gap-1.5">
+            <span className="text-[#00BFFF]">✓✓</span> Resultados rápidos
+          </span>
+        </div>
+      </div>
     </section>
-  )
+  );
 }
-``
