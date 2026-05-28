@@ -30,7 +30,9 @@ export default function HeroSection() {
         {/* Botão de Chamada Principal com Brilho */}
         <div className="mt-10 relative group">
           <a 
-            href="#" 
+            href="https://pay.kiwify.com.br/4AlTZa1" 
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-3 bg-[#00BFFF] text-black font-bold px-8 py-4 rounded-xl text-base tracking-wide hover:bg-[#0099cc] transition-all duration-300 shadow-[0_0_40px_rgba(0,191,255,0.3)]"
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
