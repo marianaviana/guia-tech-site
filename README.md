@@ -1,7 +1,7 @@
  
 ## 📦 Arquitetura e Estrutura do Projeto
 
-O projeto segue uma estrutura modular padrão para aplicações React/Next.js de página única (Landing Page):
+O projeto segue uma estrutura modular padrão para aplicações React/Next.js de página única (Landing Page): https://guia-tech-site.vercel.app/
 
 
 ```
