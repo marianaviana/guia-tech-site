@@ -1,19 +1,4 @@
- ```python
-import os
-
-readme_content = """# Guia Tech: 3 Erros que Todo Iniciante em TI Comete
-
-O **Guia Tech** é uma aplicação web institucional e promocional desenvolvida para apresentar e comercializar o e-book/guia digital *"3 Erros que Todo Iniciante em TI Comete"*. O projeto funciona como uma Landing Page estratégica de alta conversão, focada na captura de leads, autoridade de marca e redirecionamento seguro para a plataforma de checkout da Kiwify.
-
-## 🚀 Tecnologias Utilizadas
-
-A stack do projeto foi selecionada para garantir máxima performance, SEO otimizado, estilização moderna e deploy contínuo:
-
-- **Framework:** Next.js (React) / React.js — garantindo renderização rápida e estrutura de componentes reutilizáveis.
-- **Estilização:** Tailwind CSS — para um design responsivo, mobile-first e com visual profissional e limpo.
-- **Hospedagem & Deploy:** Vercel — integração contínua (CI/CD) diretamente do repositório Git.
-- **Plataforma de Vendas:** Integração com Kiwify para processamento seguro de pagamentos.
-
+ 
 ## 📦 Arquitetura e Estrutura do Projeto
 
 O projeto segue uma estrutura modular padrão para aplicações React/Next.js de página única (Landing Page):
